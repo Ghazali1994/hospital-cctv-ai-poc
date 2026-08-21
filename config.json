@@ -1,0 +1,14 @@
+{
+  "model": "yolo11n.pt",
+  "confidence": 0.35,
+  "iou": 0.5,
+  "process_every_n_frames": 2,
+  "unattended_seconds": 8,
+  "item_person_max_distance_px": 180,
+  "item_stationary_movement_px": 35,
+  "zones": {
+    "entry": [0.0, 0.0, 0.3, 1.0],
+    "reception": [0.3, 0.0, 0.7, 1.0],
+    "doctor": [0.7, 0.0, 1.0, 1.0]
+  }
+}
