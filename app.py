@@ -142,6 +142,7 @@ def process_video(video_path, config, model, frame_placeholder, metrics_placehol
                 tracker="bytetrack.yaml",
                 conf=float(config["confidence"]),
                 iou=float(config["iou"]),
+                tracker="bytetrack.yaml",
                 classes=[PERSON_CLASS, *ITEM_CLASSES.keys()],
                 verbose=False,
             )[0]
